@@ -9,6 +9,10 @@ body {
   background-color: rgb(253, 253, 253);
 }
 
+.homebilder {
+  width: 200px;
+}
+
 .home {
   background-color: rgb(184, 184, 255);
 }
@@ -49,6 +53,12 @@ nav a {
   text-decoration: none;
   color: #555;
 }
+
+footer {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
 
 nav a[aria-current='page'] {
   color: #000;
