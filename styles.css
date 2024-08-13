@@ -28,6 +28,9 @@ body {
   background-color: rgb(184, 184, 255) ;
 }
 
+.hyperlink {
+  margin-bottom: 300px;
+}
 
 .homeheader {
   color: darkblue;
