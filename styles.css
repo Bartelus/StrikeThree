@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: ;
 }
 
 .homebilder {
@@ -34,8 +34,8 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(184, 184, 255) ;
 }
-
-
+ .prose {max-width: 60;
+}
 
 .hyperlink {
   margin-bottom: 300px;
