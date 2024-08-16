@@ -13,7 +13,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: ;
+  flex-wrap: wrap
+}
+
+.direction {
+  display: flex;
 }
 
 .homebilder {
