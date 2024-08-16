@@ -2,52 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: rgb(253, 253, 253);
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap
-}
-
-.direction {
-  display: flex;
-}
-
-.homebilder {
-  width: 200px;
-}
-
-.home {
-  background-color: rgb(184, 184, 255);
-}
-
-.tulleknapp {
-  background-color: rgb(255, 10, 10);
-  color: #eee;
-}
-
-.homeknapp {
-  height: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(184, 184, 255) ;
-}
- .prose {max-width: 60;
-}
-
-.hyperlink {
-  margin-bottom: 300px;
-}
-
-.homeheader {
-  color: darkblue;
-}
+/* Nav */
 
 nav {
   display: flex;
@@ -60,11 +15,6 @@ nav {
   background-color: #ffffff;
 }
 
-.prose {
-  max-width: 10px;
-}
-
-
 nav a {
   display: inline-block;
   min-width: 9rem;
@@ -76,22 +26,91 @@ nav a {
   color: #555;
 }
 
+nav a[aria-current='page'] {
+  color: rgb(252, 0, 0);
+  background-color: #ffffff;
+}
+
+/* Body */
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(253, 253, 253);
+}
+
+/* Header */
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Main */
+
+main {
+  padding: 1rem;
+}
+
+/* Footer */
+
 footer {
   background-color: cornflowerblue;
   color: aliceblue;
 }
 
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+/* Home */
+
+.homeheader {
+  color: darkblue;
 }
 
-main {
-  padding: 1rem;
+.homebilder {
+  width: 200px;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.home {
+  background-color: rgb(184, 184, 255);
+}
+
+.homeknapp {
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(184, 184, 255) ;
+}
+
+/* Liste elementer */
+
+.fhlogo {
+  height: 40px;
+  display: flex;
+}
+
+.prose {
+  max-width: 10px;
+}
+
+.direction {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+/* Knappetull */
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tulleknapp {
+  background-color: rgb(255, 10, 10);
+  color: #eee;
+}
+
+.hyperlink {
+  margin-bottom: 300px;
 }
